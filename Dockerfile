@@ -11,4 +11,5 @@ COPY build/empregos.war /opt/jboss/wildfly/standalone/deployments/ROOT.war
 COPY standalone.xml /opt/jboss/wildfly/standalone/configuration/standalone.xml
 
 # Exponha a porta padrão do WildFly
+ENV PORT 8080
 EXPOSE 8080

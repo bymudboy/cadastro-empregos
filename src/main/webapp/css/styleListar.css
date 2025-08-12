@@ -1,0 +1,107 @@
+body {
+  font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+  background-color: #f4f6fc;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #0077c8;
+  color: white;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f1f9ff;
+}
+
+td form {
+  display: inline-block;
+  margin: 4px;
+}
+
+td .botao-acoes {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+input[type="submit"],
+button[type="submit"] {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #0077c8;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background-color: #005999;
+}
+
+/* Container dos botões */
+td .botao-acoes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+/* Botões padrão: Editar e Excluir */
+.botao-acoes button,
+.botao-acoes input[type="submit"] {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #0077c8;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.botao-acoes button:hover,
+.botao-acoes input[type="submit"]:hover {
+  background-color: #005999;
+}
+
+/* Botão especial: Cadastrar nova vaga */
+.botao-cadastrar {
+  background-color: #3399ff; /* tom mais claro de azul */
+  margin-left: 16px; /* leve afastamento dos outros */
+}
+
+.botao-cadastrar:hover {
+  background-color: #2a85d0;
+}
